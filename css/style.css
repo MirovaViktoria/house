@@ -49,9 +49,9 @@ aside {
   font-weight: 400;
   font-style: normal;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1200px) {
   .header {
-    width: 375px;
+    width: 100%;
     margin: 0px auto;
   }
 }
@@ -72,35 +72,25 @@ aside {
 }
 .contauner {
   min-width: 375px;
+  display: flex;
 }
 .header__logo {
   display: flex;
   align-items: center;
   margin: 22px 0px 0px 0px;
+  flex-wrap: wrap;
+  width: 300px;
 }
 .menu {
-  margin: 0px 0px 0px 20px;
+  margin: 0px 0px 0px 30px;
 }
 .logo {
-  margin: 0px 0px 0px 11px;
+  margin: 0px 0px 0px 34px;
 }
-.phone {
-  margin: 0px 0px 0px 19px;
+.terms {
+  padding: 0px 0px 0px 84px;
 }
-.number {
-  color: rgba(255, 255, 255, 1);
-  font-family: "Roboto-Bold";
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 16px;
-  margin: 0px 0px 0px 5.43px;
-}
-.data {
-  display: flex;
-  align-items: center;
-  margin: 15px 0px 0px 53px;
-}
+
 .date__name {
   font-family: "Roboto-Regular";
   font-size: 12px;
@@ -110,14 +100,6 @@ aside {
   color: #ffffff;
   display: flex;
 }
-.data__mesagges {
-  font-family: "Roboto-Regular";
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 16px;
-  color: #ffffff;
-}
 .date {
   font-family: "Roboto-Bold";
   font-size: 18px;
@@ -126,13 +108,80 @@ aside {
   line-height: 21px;
   color: #ffffff;
 }
-
+/*Середина*/
+.data {
+  padding: 33px 0px 0px 0px;
+}
+.data__mesagges {
+  font-family: "Roboto-Regular";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  color: #ffffff;
+}
+.buttom__data {
+  height: 14px;
+  color: rgba(221, 160, 70, 1);
+  text-shadow: 0px 0px 3px rgba(211, 190, 136, 0.86);
+  font-family: "Roboto-Regular";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+}
 .message__viber {
-  margin: 0px 0px 0px 29px;
+  padding: 17.65px 0px 0px 0px;
+}
+.message__nameone {
+  display: inline-block;
+  vertical-align: top;
+  padding: 26.97px 0px 0px 4.74px;
 }
 .message__telegram {
-  margin: 0px 0px 0px 12.14px;
+  margin: 0px 0px 0px 11.81px;
 }
+.message__nametwo {
+  display: inline-block;
+  vertical-align: top;
+  padding: 26.97px 0px 0px 4.74px;
+}
+/*Прававая сторона*/
+.call {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  flex-shrink: 111111;
+  padding: 0px 30px 0px 0px;
+}
+.phone {
+  height: 18.079181671142578px;
+  width: 18.56907844543457px;
+  margin: 31.12px 0px 0px 0px;
+}
+.number {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Roboto-Bold";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 29.66px 0px 0px 5.43px;
+}
+.buttom__call {
+  background: linear-gradient(180deg, #ffdc83 0%, #fbd26a 25%, #c17024 84.9%, #e3a548 100%);
+  height: 46px;
+  width: 200px;
+  box-shadow: 0px 0px 48px rgba(240, 192, 92, 0.54);
+  font-family: "Roboto-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  padding: 11.98px 0px 0px 35px;
+  margin: 0px 0px 22px 0px;
+}
+
 /*ВТОРОЙ БЛОК*/
 
 .services {
@@ -201,7 +250,11 @@ aside {
   height: 60px;
   width: 160px;
   margin: 14px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .name__two {
   font-family: "Roboto-Bold";
   font-size: 18px;
@@ -215,4 +268,7 @@ aside {
   height: 60px;
   width: 160px;
   margin: 14px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
