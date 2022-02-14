@@ -73,6 +73,8 @@ aside {
 .contauner {
   min-width: 375px;
   display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 .header__logo {
   display: flex;
@@ -120,6 +122,13 @@ aside {
   line-height: 16px;
   color: #ffffff;
 }
+@media screen and (max-width: 768px) {
+  .data__mesagges {
+    width: 100%;
+    margin: 0px auto;
+    display: none;
+  }
+}
 .buttom__data {
   height: 14px;
   color: rgba(221, 160, 70, 1);
@@ -155,6 +164,7 @@ aside {
   justify-content: flex-end;
   flex-shrink: 111111;
   padding: 0px 30px 0px 0px;
+  width: 300px;
 }
 .phone {
   height: 18.079181671142578px;
@@ -186,20 +196,21 @@ aside {
 
 .services {
   background: url(../img/backgraund.png);
-  height: 676px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .services__background {
-  min-height: 100%;
   background: linear-gradient(
     200.02deg,
     rgba(18, 5, 1, 0.7) 22.86%,
     rgba(30, 8, 1, 0.07) 44.88%,
     rgba(11, 10, 9, 0.31) 75.31%
   );
-  padding: 46px 0px 0px 0px;
+  padding: 46px 30px 0px 30px;
 }
 .container {
-  min-width: 375px;
+  display: flex;
 }
 .text {
   font-family: "Roboto-Bold";
@@ -215,18 +226,32 @@ aside {
 
 .service__text {
   font-family: "Roboto-Bold";
-  font-size: 24px;
+  font-size: 42px;
   font-style: normal;
   font-weight: 700;
-  line-height: 28px;
-  text-align: center;
+  line-height: 49.22px;
   color: rgba(255, 255, 255, 1);
   text-shadow: 0px 0px 28.5972px #000000;
-  padding: 13px 0px 0px 0px;
+  display: flex;
+  padding: 15px 0px 0px 0px;
+}
+.text__one {
+  font-family: "Roboto-Bold";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: space-between;
+  height: 210px;
+}
+.texts {
+  height: 110px;
+  padding: 58px 0px 0px 0px;
 }
 .service__name {
   display: flex;
-  justify-content: center;
 }
 .column__one {
   display: flex;
@@ -271,4 +296,16 @@ aside {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.book {
+  height: 452px;
+  width: 340px;
+  background: rgba(255, 255, 255, 0.71);
+  box-shadow: 0px 0px 74px rgba(39, 17, 10, 0.16);
+  margin: 0px 0px 0px 51px;
+}
+.text__book {
+}
+.text__works {
 }
