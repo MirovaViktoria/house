@@ -193,12 +193,20 @@ aside {
 }
 
 /*ВТОРОЙ БЛОК*/
+@media screen and (max-width: 767px) {
+  .services {
+    width: 100%;
+    margin: 0px auto;
+    display: none;
+  }
+}
 
 .services {
   background: url(../img/backgraund.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 888px;
 }
 .services__background {
   background: linear-gradient(
@@ -207,6 +215,7 @@ aside {
     rgba(30, 8, 1, 0.07) 44.88%,
     rgba(11, 10, 9, 0.31) 75.31%
   );
+  height: 100%;
   padding: 46px 30px 0px 30px;
 }
 .container {
@@ -304,8 +313,40 @@ aside {
   background: rgba(255, 255, 255, 0.71);
   box-shadow: 0px 0px 74px rgba(39, 17, 10, 0.16);
   margin: 0px 0px 0px 51px;
+  text-align: center;
+  padding: 45px 0px 0px 0px;
 }
 .text__book {
+  font-family: "Roboto-Bold";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px;
+  color: rgba(0, 0, 0, 1);
+  height: 38px;
 }
 .text__works {
+  font-family: "Roboto-Bold";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  color: rgba(30, 8, 1, 1);
+  padding: 15px 0px 0px 0px;
+}
+.img__book {
+  padding: 32px 0px 0px 0px;
+}
+.bottom__book {
+  background: linear-gradient(180deg, #ffdc83 0%, #fbd26a 25%, #c17024 84.9%, #e3a548 100%);
+  height: 46px;
+  width: 200px;
+  box-shadow: 0px 0px 48px rgb(240 192 92 / 54%);
+  font-family: "Roboto-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  padding: 11.98px 0px 0px 0px;
+  margin: 17.45px 0px 0px 70px;
+  color: rgba(0, 0, 0, 1);
 }
