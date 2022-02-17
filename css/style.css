@@ -222,7 +222,10 @@ aside {
     rgba(11, 10, 9, 0.31) 75.31%
   );
   height: 100%;
-  padding: 46px 30px 0px 30px;
+  padding: 110px 30px 0px 30px;
+  /* display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;*/
 }
 .container {
   display: flex;
@@ -260,16 +263,17 @@ aside {
   display: flex;
   justify-content: space-between;
   height: 210px;
+  width: 320px;
 }
 .texts {
   height: 110px;
-  padding: 58px 0px 0px 0px;
+  padding: 56px 0px 0px 0px;
 }
 .service__name {
   display: flex;
   width: 340px;
   height: 216px;
-  margin: 19px 15px 0px 0px;
+  margin: 58px 15px 0px 0px;
 }
 .column__one {
   display: flex;
@@ -318,6 +322,9 @@ aside {
   margin: 0px 0px 0px 51px;
   text-align: center;
   padding: 45px 0px 0px 0px;
+  margin-left: auto;
+  position: relative;
+  margin-top: -462px;
 }
 .text__book {
   font-family: "Roboto-Bold";
@@ -468,10 +475,11 @@ aside {
   }
 }
 /*КОМП*/
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1366px) {
   .services {
     width: 100%;
     margin: 0px auto;
+    height: 632px;
   }
   .service__name {
     width: 519px;
@@ -542,5 +550,14 @@ aside {
     height: 46px;
     background: rgba(255, 255, 255, 0.22);
     padding: 6.65px 0px 0px 16.63px;
+  }
+  .services__background {
+    padding: 90px 153px 0px 153px;
+  }
+  .service__text {
+  }
+  .text__one {
+    width: 638.28px;
+    height: 100px;
   }
 }
