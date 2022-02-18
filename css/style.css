@@ -406,6 +406,9 @@ aside {
   .data {
     display: none;
   }
+  .header__logo {
+    width: 199px;
+  }
   .menu {
     margin: 0px 0px 0px 20px;
   }
