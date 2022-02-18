@@ -408,6 +408,9 @@ aside {
   }
   .header__logo {
     width: 199px;
+    padding: 22px 0px 0px 0px;
+    margin: 0;
+    align-content: flex-start;
   }
   .menu {
     margin: 0px 0px 0px 20px;
@@ -416,7 +419,7 @@ aside {
     margin: 0px 0px 0px 11px;
   }
   .terms {
-    padding: 0px 0px 0px 53px;
+    padding: 15px 0px 0px 53px;
   }
   .data__mesagges {
     width: 100%;
