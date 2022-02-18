@@ -138,9 +138,17 @@ aside {
 }
 .message__vb {
   display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
-
+.viber {
+  height: 32px;
+}
 .message__tg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px 0px 11.81px;
 }
 .link__message {
   display: flex;
@@ -154,15 +162,17 @@ aside {
 .message__nameone {
   display: inline-block;
   vertical-align: top;
-  padding: 9.32px 0px 0px 4.74px;
+  padding: 0px 0px 0px 13px;
 }
 .message__telegram {
-  margin: 0px 0px 0px 11.81px;
+}
+.telegram {
+  height: 32px;
 }
 .message__nametwo {
   display: inline-block;
   vertical-align: top;
-  padding: 9.32px 0px 0px 4.74px;
+  margin: 0px 0px 0px 9px;
 }
 /*Прававая сторона*/
 .call {
@@ -207,6 +217,7 @@ aside {
   height: 32.72px;
   width: 74.73px;
 }
+/*ВТОРОЙ БЛОК*/
 .services {
   background: url(../img/backgraund.png);
   background-position: center;
@@ -395,6 +406,12 @@ aside {
   .data {
     display: none;
   }
+  .logo {
+    margin: 0px 0px 0px 11px;
+  }
+  .terms {
+    padding: 0px 0px 0px 53px;
+  }
   .data__mesagges {
     width: 100%;
     margin: 0px auto;
@@ -417,6 +434,8 @@ aside {
     margin: 0px 20px 0px 0px;
     flex-direction: column;
     align-items: flex-end;
+    width: 174px;
+    flex-wrap: nowrap;
   }
   .buttom__call {
     display: none;
@@ -542,14 +561,12 @@ aside {
     width: 140px;
     height: 46px;
     background: rgba(255, 255, 255, 0.22);
-    padding: 5.65px 0px 0px 30.41px;
     margin: 0px 15.66px 0px 0px;
   }
   .message__tg {
     width: 140px;
     height: 46px;
     background: rgba(255, 255, 255, 0.22);
-    padding: 6.65px 0px 0px 16.63px;
   }
   .services__background {
     padding: 90px 153px 0px 153px;
