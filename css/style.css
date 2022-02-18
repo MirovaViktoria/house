@@ -178,9 +178,9 @@ aside {
 .call {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
   flex-shrink: 111111;
   width: 300px;
+  margin: 0px 20.26px 0px 0px;
 }
 .call__phone {
   display: flex;
@@ -429,6 +429,7 @@ aside {
   .call__message {
     display: flex;
     justify-content: space-between;
+    margin: 26px 0px 0px 0px;
   }
   .call__phone {
     justify-content: flex-end;
@@ -440,7 +441,6 @@ aside {
     line-height: 16px;
   }
   .call {
-    margin: 0px 20px 0px 0px;
     flex-direction: column;
     align-items: flex-end;
     width: 174px;
@@ -501,6 +501,9 @@ aside {
   .call__message {
     display: none;
   }
+  .call {
+    margin: 0;
+  }
 }
 /*КОМП*/
 @media screen and (min-width: 1366px) {
@@ -519,6 +522,7 @@ aside {
   .call {
     padding: 0px 100px 0px 40px;
     width: 269px;
+    margin: 0;
   }
   .call__message {
     display: none;
