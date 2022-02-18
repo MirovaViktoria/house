@@ -406,6 +406,9 @@ aside {
   .data {
     display: none;
   }
+  .menu {
+    margin: 0px 0px 0px 20px;
+  }
   .logo {
     margin: 0px 0px 0px 11px;
   }
