@@ -591,3 +591,107 @@ aside {
     height: 100px;
   }
 }
+/* ТРЕТИЙ БЛОК*/
+@font-face {
+  font-family: "Druk Wide";
+  src: url("../fonts/fonts/DrukWide-Bold.woff2") format("woff2"),
+    url("../fonts/fonts/DrukWide-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.house {
+  text-align: center;
+  background: #f4f4f4;
+}
+.header__house {
+  padding: 70px 0px 0px 0px;
+}
+.text__headerone {
+  font-family: "Druk Wide";
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  font-weight: bold;
+  font-style: normal;
+}
+.text__headertwo {
+  font-family: "Roboto";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: center;
+}
+.house__frame {
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0px 0px 74px rgba(39, 17, 10, 0.16);
+  height: 476px;
+  width: 340px;
+  margin: 44px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.name__house {
+  font-family: "Roboto";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 33px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  padding: 54px 0px 0px 0px;
+}
+.bottom__house {
+  background: linear-gradient(180deg, #ffdc83 0%, #fbd26a 25%, #c17024 84.9%, #e3a548 100%);
+  box-shadow: 0px 0px 62px #d3be88;
+  height: 46px;
+  width: 200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+}
+.arrow__house {
+  padding: 0px 0px 0px 22px;
+}
+.houses {
+  height: 476px;
+  width: 340px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/*ТРЕТИЙ БЛОК - телефон*/
+@media screen and (max-width: 768px) {
+  .houses {
+  }
+}
+/*ТРЕТИЙ БЛОК - плашет*/
+@media screen and (min-width: 767px) {
+  .house {
+  }
+  .house__flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .arrow__houseone {
+    display: none;
+  }
+}
+/*ТРЕТИЙ БЛОК - комп*/
+@media screen and (min-width: 1366px) {
+  .house {
+  }
+  .hose__flex {
+    height: 971px;
+    width: 1063px;
+  }
+}
