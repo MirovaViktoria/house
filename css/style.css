@@ -705,6 +705,9 @@ aside {
   .log {
     display: none;
   }
+  .img__frame {
+    display: none;
+  }
 }
 /*ТРЕТИЙ БЛОК - TABLET*/
 @media screen and (min-width: 767px) {
