@@ -805,3 +805,42 @@ aside {
     line-height: 19px;
   }
 }
+/*ЧЕТВЕРТЫЙ БЛОК*/
+.production__time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(244, 244, 244, 1);
+}
+.text__time {
+  font-family: "Roboto-Bold";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  margin: 77px 0px 0px 0px;
+}
+.text__production {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  margin: 24px 0px 0px 0px;
+}
+.bottom__time {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  height: 46px;
+  width: 200px;
+  background: linear-gradient(180deg, #ffdc83 0%, #fbd26a 25%, #c17024 84.9%, #e3a548 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 28px 0px 0px 0px;
+}
