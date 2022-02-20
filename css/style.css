@@ -112,7 +112,7 @@ aside {
 }
 /*Середина*/
 .data {
-  padding: 33px 0px 0px 0px;
+  margin: 28px 0px 0px 0px;
   width: 255px;
   display: flex;
   justify-content: space-around;
@@ -695,7 +695,7 @@ aside {
   flex-direction: column;
   justify-content: space-between;
 }
-/*ТРЕТИЙ БЛОК - телефон*/
+/*ТРЕТИЙ БЛОК - PHONE*/
 @media screen and (max-width: 768px) {
   .houses {
   }
@@ -706,9 +706,31 @@ aside {
     display: none;
   }
 }
-/*ТРЕТИЙ БЛОК - плашет*/
+/*ТРЕТИЙ БЛОК - TABLET*/
 @media screen and (min-width: 767px) {
-  .house {
+  .header__house {
+    width: 400px;
+    height: 168px;
+    margin: 0 auto;
+  }
+  .img__frame {
+    padding: 30px 20.44px 0px 0px;
+    height: 27.55px;
+    width: 27.55px;
+  }
+  .text__img {
+    padding: 44px 0px 0px 32px;
+    text-align: justify;
+  }
+  .bottom__house {
+    margin: 0 32px;
+  }
+  .name__house {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0;
+    margin: 0px 20.44px 0px 0px;
+    justify-content: space-between;
   }
   .house__flex {
     display: flex;
@@ -717,8 +739,28 @@ aside {
   .arrow__houseone {
     display: none;
   }
+  .houses {
+    background: #dda046;
+    box-shadow: 0px 0px 74px rgba(39, 17, 10, 0.16);
+  }
+  .bottom__log {
+    background: #ffffff;
+    box-shadow: 0px 0px 62px #d3be88;
+    height: 46px;
+    width: 200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    margin: 0 32px;
+  }
 }
-/*ТРЕТИЙ БЛОК - комп*/
+/*ТРЕТИЙ БЛОК - LAPTOP*/
 @media screen and (min-width: 1366px) {
   .header__house {
     width: 803px;
@@ -734,8 +776,6 @@ aside {
   }
   .house {
     height: 1300px;
-  }
-  .bottom__house {
   }
   .house__flex {
     height: 971px;
