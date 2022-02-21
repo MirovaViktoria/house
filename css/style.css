@@ -844,3 +844,150 @@ aside {
   justify-content: center;
   margin: 28px 0px 0px 0px;
 }
+
+/*ЧЕТВЕРТЫЙ БЛОК - TABLET*/
+@media screen and (min-width: 767px) {
+  .bottom__time {
+    display: none;
+  }
+}
+/*ЧЕТВЕРТЫЙ БЛОК - LAPTOP*/
+@media screen and (min-width: 1366px) {
+  .bottom__time {
+    display: none;
+  }
+}
+/*ПЯТЫЙ БЛОК*/
+.background {
+  background: rgba(244, 244, 244, 1);
+  padding: 51px 0px 0px 0px;
+}
+.video {
+  background: rgba(29, 26, 20, 1);
+  height: 588px;
+  width: 337px;
+  margin-inline: auto;
+}
+.text__video {
+  font-family: "Roboto-Bold";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33px;
+  text-align: center;
+  color: rgba(221, 160, 70, 1);
+  padding: 48px 0px 0px 0px;
+}
+.text__presentation {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  padding: 20px 0px 0px 0px;
+}
+.img__video {
+  padding: 53px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+}
+.bottom__video {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  height: 46px;
+  width: 200px;
+  background: linear-gradient(180deg, #ffdc83 0%, #fbd26a 25%, #c17024 84.9%, #e3a548 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 28px 0px 0px 0px;
+}
+/*ПЯТЫЙ БЛОК - PHONE*/
+@media screen and (max-width: 768px) {
+  .img__video {
+  }
+  .bottom__video {
+    display: none;
+  }
+}
+/*ПЯТЫЙ БЛОК - TABLET*/
+@media screen and (min-width: 767px) {
+  .video {
+    height: 489px;
+    width: 708px;
+    background-image: url(../img/alcove.png);
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+  .text__video {
+    width: 450px;
+    font-size: 36px;
+    text-align: initial;
+    padding: 60px 0px 0px 48px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+  .bottom__video {
+    margin: 26.56px 0px 0px 48px;
+  }
+  .text__presentation {
+    width: 283px;
+    margin: 0;
+    font-size: 24px;
+    text-align: initial;
+    padding: 8px 0px 0px 48px;
+    line-height: 33px;
+  }
+  .img__video {
+    padding: 0px 30px 0px 0px;
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    margin-top: -270px;
+  }
+}
+/*ПЯТЫЙ БЛОК - LAPTOP*/
+@media screen and (min-width: 1366px) {
+  .video {
+    height: 489px;
+    width: 1060px;
+    background-image: url(../img/alcove2.png);
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+  .text__video {
+    width: 550px;
+    font-size: 36px;
+    text-align: initial;
+    padding: 77px 0px 0px 90px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+  .bottom__video {
+    margin: 80px 0px 0px 90px;
+  }
+  .text__presentation {
+    width: 425px;
+    margin: 0;
+    font-size: 24px;
+    text-align: initial;
+    padding: 19px 0px 0px 90px;
+    line-height: 33px;
+  }
+  .img__video {
+    padding: 0px 90px 0px 0px;
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    height: 367px;
+    width: 430px;
+    position: relative;
+    margin-top: -360px;
+  }
+}
